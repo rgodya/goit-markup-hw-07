@@ -73,7 +73,8 @@ img {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -111,7 +112,8 @@ img {
 }
 
 .modal-close-btn:hover .modal-close-icon,
-.modal-close-btn:hover .modal-close-icon, .modal-close-btn:focus .modal-close-icon,
+.modal-close-btn:hover .modal-close-icon,
+.modal-close-btn:focus .modal-close-icon,
 .modal-close-btn:focus .modal-close-icon {
   fill: var(--accent-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -152,13 +154,15 @@ img {
   cursor: pointer;
 }
 
-.contact-form-input:hover, .contact-form-input:focus {
+.contact-form-input:hover,
+.contact-form-input:focus {
   border-color: var(--accent-color);
   outline: none;
 }
 
 .contact-form-input:hover + .form-icon,
-.contact-form-input:hover + .form-icon, .contact-form-input:focus + .form-icon,
+.contact-form-input:hover + .form-icon,
+.contact-form-input:focus + .form-icon,
 .contact-form-input:focus + .form-icon {
   fill: var(--accent-color);
 }
@@ -190,7 +194,8 @@ img {
   letter-spacing: 0.01em;
 }
 
-.comments-input:hover, .comments-input:focus {
+.comments-input:hover,
+.comments-input:focus {
   border-color: var(--accent-color);
   outline: none;
 }
@@ -230,7 +235,6 @@ img {
 }
 
 .chekbox:focus + .checkbox-contract-label::before {
-  outline: 1px solid var(--title-text-color);
   transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -353,7 +357,7 @@ img {
 
 .site-nav__link.current::after {
   position: absolute;
-  content: "";
+  content: '';
   bottom: -1px;
   display: block;
   width: 100%;
@@ -386,7 +390,8 @@ img {
   text-align: center;
   max-width: 1600px;
   height: 600px;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herofone.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/herofone.jpg);
   background-color: var(--fone-hero-footer);
   margin-left: auto;
   margin-right: auto;
@@ -399,7 +404,7 @@ img {
 
 .overlay {
   height: 600px;
-  outline: 1pх solid var(--title-text-color);
+  outline: 2pх solid var(--title-text-color);
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -430,7 +435,8 @@ img {
   font-weight: 700;
   border: transparent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
 
@@ -550,7 +556,8 @@ img {
 .image-fone {
   background-color: var(--primery-white-color);
   border-radius: 0 0 4px 4px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-img {
@@ -576,17 +583,20 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-social-item:hover, .team-social-item:focus {
+.team-social-item:hover,
+.team-social-item:focus {
   background-color: var(--accent-color);
 }
 
-.team-social-item:hover, .team-social-item:focus {
+.team-social-item:hover,
+.team-social-item:focus {
   fill: var(--primery-white-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-item:hover .social-icon,
-.team-social-item:hover .social-icon, .team-social-item:focus .social-icon,
+.team-social-item:hover .social-icon,
+.team-social-item:focus .social-icon,
 .team-social-item:focus .social-icon {
   fill: var(--primery-white-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -620,7 +630,8 @@ img {
 }
 
 .customer-list:hover .customers-icon,
-.customer-list:hover .customers-icon, .customer-list:focus .customers-icon,
+.customer-list:hover .customers-icon,
+.customer-list:focus .customers-icon,
 .customer-list:focus .customers-icon {
   fill: var(--accent-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -645,17 +656,21 @@ img {
   padding: 6px 22px 6px 22px;
 }
 
-.items:hover, .items:focus {
+.items:hover,
+.items:focus {
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.items:hover, .items:focus {
+.items:hover,
+.items:focus {
   background-color: var(--accent-color);
   color: var(--primery-white-color);
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-menu {
@@ -684,7 +699,8 @@ img {
 }
 
 .team-service-portfolio:hover {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-list-overlay-wind {
@@ -719,7 +735,8 @@ img {
 }
 
 .service-portfolio:hover .overlay-wind,
-.service-portfolio:hover .overlay-wind, .service-portfolio:focus .overlay-wind,
+.service-portfolio:hover .overlay-wind,
+.service-portfolio:focus .overlay-wind,
 .service-portfolio:focus .overlay-wind {
   transform: translate(0%);
 }
@@ -779,7 +796,8 @@ img {
   font-weight: 400;
 }
 
-.footer-adress:hover, .footer-adress:focus {
+.footer-adress:hover,
+.footer-adress:focus {
   color: var(--accent-color);
 }
 
@@ -793,7 +811,8 @@ img {
   font-weight: 400;
 }
 
-.footer-cont:hover, .footer-cont:focus {
+.footer-cont:hover,
+.footer-cont:focus {
   color: var(--accent-color);
 }
 
